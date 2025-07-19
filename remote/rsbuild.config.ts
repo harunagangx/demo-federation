@@ -7,6 +7,7 @@ export default defineConfig({
     pluginReact(),
     pluginModuleFederation({
       name: 'federation_remote',
+      filename: 'remoteEntry.js',
       exposes: {
         './button': './src/button.tsx',
       },
