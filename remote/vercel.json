@@ -3,7 +3,6 @@
   "buildCommand": "pnpm run build",
   "outputDirectory": "build",
   "installCommand": "pnpm install",
-  "framework": "rsbuild",
   "rewrites": [
     {
       "source": "/(.*)",
